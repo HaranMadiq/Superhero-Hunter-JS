@@ -1,6 +1,6 @@
-# Marvel Superhero Search
+# Superhero-Hunter-JS
 
-Marvel Superhero Search is a web application that allows users to search for their favorite Marvel superheroes and add them to their list of favorites. Users can view detailed information about each superhero and manage their favorites.
+Superhero-Hunter-JS is a web application that allows users to search for their favorite Marvel superheroes and add them to their list of favorites. Users can view detailed information about each superhero and manage their favorites.
 
 ## Features
 
