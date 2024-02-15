@@ -1,0 +1,159 @@
+/* Font  family for whole project */
+* {
+  font-family: "Nunito", sans-serif;
+}
+.search-section,
+.fav-section,
+.about-sec {
+  background: #ececee;
+}
+.search-container {
+  width: 500px !important;
+  padding: 50px;
+}
+
+.result-section {
+  background-color: #ececee;
+}
+.result-section h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.navbar{
+  background-color: red;
+}
+
+#start:hover {
+  color: #000000;
+  background: linear-gradient(to bottom right, #ed1d24, #ec1d23, #c31229, #9b1924, #6d171b);
+  box-shadow: 0 0 10px hsl(151, 88%, 70%), 0 0 40px hsl(159, 93%, 77%), 0 0 80px hsl(157, 96%, 72%);
+  transition-delay: 0.001s;
+  font-size: large;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+/*  Alert type box displaying in the bottom of the screen */
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+/*  Mobile Responsive  */
+@media only screen and (max-width: 768px) {
+  .search-container {
+    width: 100% !important;
+    padding: 50px;
+  }
+
+  div#superhero {
+    width: 100%;
+  }
+}
+
+footer {
+  height: 290px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration-color: white;
+  text-emphasis-style: bold;
+  margin: 0;
+
+}
+
+
+.social-links {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+li {
+  width: max(5vw, 2.5rem);
+  height: max(5vw, 2.5rem);
+  list-style: none;
+  margin: 10px;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.textfooter {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
