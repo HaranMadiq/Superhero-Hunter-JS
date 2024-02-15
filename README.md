@@ -40,7 +40,3 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 ## License
 This project is licensed under the MIT License.
-```kotlin
-
-You can copy this markdown content and save it as `README.md` in the root directory of your GitHub repository. GitHub will automatically render this markdown file when users visit your repository.
-```
